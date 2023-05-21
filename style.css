@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* //////////////// */
+.section1 .header-title{
+    display: flex;
+    background: #CFCFCF;
+    width: 100%;
+    justify-content: space-between;
+}
+.section1 .luongcoso h1{
+    font-size: 15px;
+}
+.section1 .luongcoso{
+    padding: 14px 0;
+    margin-left: 16px;
+}
+.section1 .giamtrugiacanh h1{
+    font-size: 15px;
+}
+.section1 .giamtrugiacanh{
+    padding: 14px 0;
+    margin-left: 100px;
+}
+.section1 .nguoiphuthuoc h1{
+    font-size: 15px;
+}
+.section1 .nguoiphuthuoc{
+    padding: 14px 0;
+    margin-left: 100px;
+    padding-right: 20px;
+}
+.section1 .luongcoso span{
+    color: #5D9D53;
+}
+.section1 .giamtrugiacanh span{
+    color: #5D9D53;
+}
+.section1 .nguoiphuthuoc span{
+    color: #5D9D53;
+}
+/* //////////////////////////// */
+.section2{
+    display: flex;
+}
+.section2 .inner-left{
+    width: 50%;
+    padding-top: 10px;
+}
+.section2 .inner-left .thunhap{
+    font-weight: 700;
+}
+.section2 .inner-left input[type="text"]::placeholder{
+    text-align: right;
+}
+.section2 .inner-left input{
+    width: 96%;
+    padding: 5px;
+    position: relative;
+}
+.section2 .inner-left i{
+    position: absolute;
+    left: 39px;
+    top: 140px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.section2 .inner-left span{
+    position: absolute;
+    left: 600px;
+    top: 140px;
+    bottom: 398px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.section2 .inner-right{
+    width: 50%;
+    padding-top: 10px;
+}
+.section2 .inner-right .thunhap{
+    font-weight: 700;
+}
+.section2 .inner-right input[type="text"]::placeholder{
+    text-align: right;
+}
+.section2 .inner-right input{
+    width: 100%;
+    padding: 5px;
+    position: relative;
+}
+.section2 .inner-right i{
+    position: absolute;
+    left: 784px;
+    top: 140px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.section2 i{
+    color: #1EB553;
+}
+/* ////////////////////////////////// */
+.section3{
+    margin-top: 20px;
+    display: flex;
+}
+.section3 h1{
+    font-weight: 700;
+    font-size: 15px;
+}
+.section3 .inner-left{
+    width: 100%;
+}
+.section3 .inner-left .khac{
+    display: flex;
+}
+.section3 .inner-left .khac .a .trenluong{
+    font-size: 17px;
+    font-weight: 500;
+}
+.section3 .inner-left .khac .b .trenluong{
+    font-size: 17px;
+    font-weight: 500;
+}
+.section3 .inner-left .khac .b{
+    margin-left: 560px;
+}
+.section3 .inner-left .khac .b .khac1{
+    display: flex;
+}
+.section3 i {
+    color: #1EB553;
+    position: absolute;
+    left: 859px;
+    top: 223px;
+}
+.section3 .inner-left input[type="text"]::placeholder{
+    text-align: right;
+}
+.section3 .khac2 input{
+    margin-left: 20px;
+    width: 674px;
+    padding: 5px;
+}
+.section3 .trenluong{
+    margin-bottom: 0;
+}
+/* //////////////////////////////////// */
+.section4{
+    margin-top: 20px;
+}
+.section4 .header-title h1{
+    font-size: 17px;
+    font-weight: 700;
+}
+.section4 .header-title span{
+    font-size: 15px;
+    margin-left: 6px;
+    color: red;
+    font-weight: 600;
+}
+.section4 .header-title{
+    display: flex;
+}
+.section4 .header-lama{
+    display: flex;
+}
+.section4 .header-lama .mot label{
+    font-weight: 700;
+}
+.section4 .header-lama .hai{
+    margin-left: 64px;
+    font-weight: 700;
+}
+.section4 .header-lama .ba{
+    margin-left: 64px;
+    font-weight: 700;
+}
+.section4 .header-lama .bon{
+    margin-left: 64px;
+    font-weight: 700;
+}
+/* //////////////////////////////////// */
+.section5{
+    margin-top: 20px;
+}
+.section5 .btn-1 {
+    color: white;
+    background: #00B14F;
+    border: 1px solid white;
+    padding: 0px 21px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 237px;
+}
+.section5 .button{
+    display: flex;
+}
+.section5 .btn-2{
+    color: #00B14F;
+    background: white;
+    border: 3px solid #00B14F;
+    padding: 5px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+

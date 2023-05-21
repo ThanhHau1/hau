@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section1">
+        <div class="header-title">
+            <div class="luongcoso">
+                <h1>Lương cơ sở</h1>
+                <span>1,490,000đ</span>
+            </div>
+            <div class="giamtrugiacanh">
+                <h1>Giảm trừ gia cảnh bản thân</h1>
+                <span>11,000,000đ</span>
+            </div>
+            <div class="nguoiphuthuoc">
+                <h1>Người phụ thuộc</h1>
+                <span>4,400,000đ</span>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="inner-left">
+            <label for="thunhap" class="thunhap">Thu nhập:</label><br>
+            <input type="text" id="thunhap" placeholder="(VNĐ)">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <span>20,000,000</span>
+        </div>
+        <div class="inner-right">
+            <label for="thunhap" class="thunhap">Số người phụ thuộc:</label><br>
+            <input type="text" id="thunhap" placeholder="(Người)">
+            <i class="fa-solid fa-user-group"></i>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="inner-left">
+            <h1>Mức lương đóng bảo hiểm:</h1>
+            <div class="khac">
+                <div class="a">
+                    <input type="radio" name="radio" id="Begin1">
+                    <label for="Begin1" class="trenluong">Trên lương chính thức</label>
+                </div>
+                <div class="b">
+                    <div class="khac1">
+                        <div class="khac3">
+                            <input type="radio" name="radio" id="Begin2">
+                            <label for="Begin2" class="trenluong">Khác</label>
+                        </div>
+                        <div class="khac2">
+                            <input type="text" id="thunhap" placeholder="(VNĐ)">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="header-title">
+            <h1>Vùng:</h1>
+            <span>(Giải thích)</span>
+        </div>
+        <div class="header-lama">
+            <div class="mot">
+                <input type="radio" name="radio" id="Mot">
+                <label for="Mot" class="trenluong">I</label>
+            </div>
+            <div class="hai">
+                <input type="radio" name="radio" id="Hai">
+                <label for="Hai" class="trenluong">II</label>
+            </div>
+            <div class="ba">
+                <input type="radio" name="radio" id="Ba">
+                <label for="Ba" class="trenluong">III</label>
+            </div>
+            <div class="bon">
+                <input type="radio" name="radio" id="Bon">
+                <label for="Bon" class="trenluong">IV</label>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="button">
+                <button type="submit" class="btn-1">gross<i class="fa-solid fa-arrow-right"></i>net</button>
+                <button type="submit" class="btn-2">gross<i class="fa-solid fa-arrow-right"></i>net</button>
+        </div>
+    </div>
+</body>
+
+</html>
